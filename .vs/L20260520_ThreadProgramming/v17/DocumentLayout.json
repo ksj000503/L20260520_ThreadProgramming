@@ -7,43 +7,8 @@
       "RelativeMoniker": "D:0:0:{889ED817-22C6-4432-A1C2-EE2BB85F326D}|Client\\Client.vcxproj|solutionrelative:Client\\client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0AE629E-FE94-487C-BD52-C8EDD2431C6E}|Server\\Server.vcxproj|C:\\work\\L20260520_ThreadProgramming\\Server\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B0AE629E-FE94-487C-BD52-C8EDD2431C6E}|Server\\Server.vcxproj|solutionrelative:Server\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\MovePacket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\MovePacket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\MovePacket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\MovePacket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{889ED817-22C6-4432-A1C2-EE2BB85F326D}|Client\\Client.vcxproj|C:\\work\\L20260520_ThreadProgramming\\Client\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{889ED817-22C6-4432-A1C2-EE2BB85F326D}|Client\\Client.vcxproj|solutionrelative:Client\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetUtill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\NetUtill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work\\L20260520_ThreadProgramming\\packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\ChatPacket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\ChatPacket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\ChatPacket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,16 +19,51 @@
       "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\Packet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889ED817-22C6-4432-A1C2-EE2BB85F326D}|Client\\Client.vcxproj|C:\\work\\L20260520_ThreadProgramming\\Client\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{889ED817-22C6-4432-A1C2-EE2BB85F326D}|Client\\Client.vcxproj|solutionrelative:Client\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\MovePacket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\MovePacket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetUtill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\NetUtill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetCommon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\NetCommon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetUtill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\NetUtill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AE629E-FE94-487C-BD52-C8EDD2431C6E}|Server\\Server.vcxproj|C:\\work\\L20260520_ThreadProgramming\\Server\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0AE629E-FE94-487C-BD52-C8EDD2431C6E}|Server\\Server.vcxproj|solutionrelative:Server\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\work\\L20260520_ThreadProgramming\\packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\ChatPacket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\ChatPacket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|solutionrelative:NetCommon\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85871EC1-BAEC-4A6E-904A-B034B0BD1845}|NetCommon\\NetCommon.vcxproj|C:\\work\\L20260520_ThreadProgramming\\NetCommon\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -81,7 +81,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
@@ -89,25 +89,24 @@
               "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
               "ViewState": "AgIAAH4HAAAAAAAAAAAuwJMHAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-21T02:50:50.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T02:50:50.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NetUtill.cpp",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetUtill.cpp",
               "RelativeDocumentMoniker": "NetCommon\\NetUtill.cpp",
               "ToolTip": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetUtill.cpp",
               "RelativeToolTip": "NetCommon\\NetUtill.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-21T00:23:09.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "document.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h",
               "RelativeDocumentMoniker": "packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "packages\\tencent.rapidjson.1.1.1\\lib\\native\\include\\rapidjson\\document.h",
               "ViewState": "AgIAAPgDAAAAAAAAAAAwwB8EAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T08:35:24.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T08:35:24.68Z"
             },
             {
               "$type": "Document",
@@ -133,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "NetUtill.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetUtill.h",
               "RelativeDocumentMoniker": "NetCommon\\NetUtill.h",
@@ -141,24 +139,25 @@
               "RelativeToolTip": "NetCommon\\NetUtill.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T07:29:43.153Z"
+              "WhenOpened": "2026-05-20T07:29:43.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MovePacket.cpp",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\MovePacket.cpp",
               "RelativeDocumentMoniker": "NetCommon\\MovePacket.cpp",
               "ToolTip": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\MovePacket.cpp",
               "RelativeToolTip": "NetCommon\\MovePacket.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-20T07:26:27.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MovePacket.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\MovePacket.h",
               "RelativeDocumentMoniker": "NetCommon\\MovePacket.h",
@@ -171,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ChatPacket.cpp",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\ChatPacket.cpp",
               "RelativeDocumentMoniker": "NetCommon\\ChatPacket.cpp",
@@ -179,38 +178,37 @@
               "RelativeToolTip": "NetCommon\\ChatPacket.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-20T06:11:51.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T06:11:51.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "ChatPacket.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\ChatPacket.h",
               "RelativeDocumentMoniker": "NetCommon\\ChatPacket.h",
               "ToolTip": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\ChatPacket.h",
               "RelativeToolTip": "NetCommon\\ChatPacket.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-20T06:11:05.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Packet.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\Packet.h",
               "RelativeDocumentMoniker": "NetCommon\\Packet.h",
               "ToolTip": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\Packet.h",
               "RelativeToolTip": "NetCommon\\Packet.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-20T06:07:40.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "framework.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\framework.h",
               "RelativeDocumentMoniker": "NetCommon\\framework.h",
@@ -218,12 +216,11 @@
               "RelativeToolTip": "NetCommon\\framework.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T04:15:05.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T04:15:05.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\pch.h",
               "RelativeDocumentMoniker": "NetCommon\\pch.h",
@@ -247,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Packet.cpp",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\Packet.cpp",
               "RelativeDocumentMoniker": "NetCommon\\Packet.cpp",
@@ -260,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "NetCommon.cpp",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\NetCommon\\NetCommon.cpp",
               "RelativeDocumentMoniker": "NetCommon\\NetCommon.cpp",
@@ -268,17 +265,18 @@
               "RelativeToolTip": "NetCommon\\NetCommon.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-20T04:13:52.654Z"
+              "WhenOpened": "2026-05-20T04:13:52.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "server.cpp",
               "DocumentMoniker": "C:\\work\\L20260520_ThreadProgramming\\Server\\server.cpp",
               "RelativeDocumentMoniker": "Server\\server.cpp",
               "ToolTip": "C:\\work\\L20260520_ThreadProgramming\\Server\\server.cpp",
               "RelativeToolTip": "Server\\server.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAsBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAgwMsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-20T04:13:13.12Z",
               "EditorCaption": ""
@@ -291,7 +289,7 @@
               "RelativeDocumentMoniker": "Client\\client.cpp",
               "ToolTip": "C:\\work\\L20260520_ThreadProgramming\\Client\\client.cpp",
               "RelativeToolTip": "Client\\client.cpp",
-              "ViewState": "AgIAADoAAAAAAAAAAAAqwFAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAgwAoBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-20T04:12:20.81Z",
               "EditorCaption": ""

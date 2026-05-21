@@ -172,13 +172,6 @@ int main()
                         continue;
                     }
 
-                    SOCKADDR_IN ClientSockAddr;
-                    memset(&ClientSockAddr, 0, sizeof(ClientSockAddr));
-
-                    int ClientSockAddrLength = sizeof(ClientSockAddr);
-
-                    getpeername(ReadSockets.fd_array[i], (SOCKADDR*)&ClientSockAddr, &ClientSockAddrLength);
-
                     switch ((EPacketType)PacketType)
                     {
                     case EPacketType::CHAT:
