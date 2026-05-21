@@ -24,11 +24,12 @@ int PlayerY = 1;
 
 struct Player
 {
+    string UserID;
     int X = 1;
     int Y = 1;
 };
 
-map<SOCKET, Player> Players;
+map<string, Player> Players;
 vector<string> MapData;
 
 void ProcessMove(Player& CurrentPlayer, string Key)
@@ -142,8 +143,21 @@ int main()
 
                     FD_SET(ClientSocket, &ReadSockets);
 
-                    Players[ClientSocket].X = 1;
-                    Players[ClientSocket].Y = 1;
+                    for (auto& Pair : Players)
+                    {
+                        MovePacket SendData;
+                        SendData.UserID = Pair.second.UserID;
+                        SendData.X = Pair.second.X;
+                        SendData.Y = Pair.second.Y;
+
+                        string JSONString = SendData.ToString();
+                        PacketHeader SendHeader;
+                        SendHeader.size = htons((unsigned short)JSONString.size());
+                        SendHeader.type = htons((unsigned short)EPacketType::MOVE);
+
+                        SendAll(ClientSocket, (char*)&SendHeader, sizeof(SendHeader));
+                        SendAll(ClientSocket, JSONString.c_str(), JSONString.size());
+                    }
                 }
                 else
                 {
@@ -209,7 +223,8 @@ int main()
                         MovePacket Data;
                         Data.Parse(Buffer);
 
-                        Player& CurrentPlayer = Players[ReadSockets.fd_array[i]];
+                        Player& CurrentPlayer = Players[Data.UserID];;
+                        CurrentPlayer.UserID = Data.UserID;
 
                         int PrevX = CurrentPlayer.X;
                         int PrevY = CurrentPlayer.Y;

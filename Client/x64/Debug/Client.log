@@ -1,5 +1,5 @@
 ﻿  client.cpp
-C:\work\L20260520_ThreadProgramming\Client\client.cpp(205,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\work\L20260520_ThreadProgramming\Client\client.cpp(219,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\work\L20260520_ThreadProgramming\Client\client.cpp(229,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\work\L20260520_ThreadProgramming\Client\client.cpp(204,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\work\L20260520_ThreadProgramming\Client\client.cpp(218,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\work\L20260520_ThreadProgramming\Client\client.cpp(228,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Client.vcxproj -> C:\work\L20260520_ThreadProgramming\x64\Debug\L20260520_ThreadProgramming.exe

@@ -72,10 +72,9 @@ void DrawMap()
 			{
 				Player& CurrentPlayer = Pair.second;
 
-				if (CurrentPlayer.X == x &&
-					CurrentPlayer.Y == y)
+				if (CurrentPlayer.X == x && CurrentPlayer.Y == y)
 				{
-					cout << UserID[0];
+					cout << Pair.first[0];
 					IsPlayer = true;
 					break;
 				}
