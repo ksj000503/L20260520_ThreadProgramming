@@ -1,20 +1,20 @@
 #pragma once
+
 #include "Packet.h"
-#include <string>
 
 class MovePacket : public IPacket
 {
 public:
-	std::string UserID;
-	float X;
-	float Y;
+    virtual void Parse(std::string InString) override;
+    virtual std::string ToString() override;
+    virtual int Length() override;
+    virtual EPacketType GetType() override;
 
-	void Parse(std::string Instring) override;
-	std::string ToString() override;
-	int Length() override;
+public:
+    std::string UserID;
 
-	EPacketType GetType() override
-	{
-		return EPacketType::MOVE;
-	}
+    float X = 0;
+    float Y = 0;
+
+    std::string Key = "";
 };

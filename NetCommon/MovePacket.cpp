@@ -1,23 +1,56 @@
 #include "MovePacket.h"
+#include "rapidjson/stringbuffer.h"
+#include "rapidjson/writer.h"
 
-void MovePacket::Parse(std::string Instring)
+void MovePacket::Parse(std::string InString)
 {
-	JSONDocument.Parse(Instring.c_str());
-	UserID = JSONDocument["UserID"].GetString();
-	X = JSONDocument["X"].GetFloat();
-	Y = JSONDocument["Y"].GetFloat();
+    JSONDocument.Parse(InString.c_str());
+
+    if (JSONDocument.HasMember("UserID"))
+    {
+        UserID = JSONDocument["UserID"].GetString();
+    }
+
+    if (JSONDocument.HasMember("X"))
+    {
+        X = JSONDocument["X"].GetFloat();
+    }
+
+    if (JSONDocument.HasMember("Y"))
+    {
+        Y = JSONDocument["Y"].GetFloat();
+    }
+
+    if (JSONDocument.HasMember("Key"))
+    {
+        Key = JSONDocument["Key"].GetString();
+    }
 }
 
 std::string MovePacket::ToString()
 {
     JSONDocument.SetObject();
-    JSONDocument.AddMember("type", "move", JSONDocument.GetAllocator());
-    JSONDocument.AddMember("UserID", UserID, JSONDocument.GetAllocator());
-    JSONDocument.AddMember("X", X, JSONDocument.GetAllocator());
-    JSONDocument.AddMember("Y", Y, JSONDocument.GetAllocator());
+
+    rapidjson::Document::AllocatorType& Allocator = JSONDocument.GetAllocator();
+
+    JSONDocument.AddMember(
+        "UserID",
+        rapidjson::Value(UserID.c_str(), Allocator),
+        Allocator
+    );
+
+    JSONDocument.AddMember("X", X, Allocator);
+    JSONDocument.AddMember("Y", Y, Allocator);
+
+    JSONDocument.AddMember(
+        "Key",
+        rapidjson::Value(Key.c_str(), Allocator),
+        Allocator
+    );
 
     rapidjson::StringBuffer Buffer;
     rapidjson::Writer<rapidjson::StringBuffer> Writer(Buffer);
+
     JSONDocument.Accept(Writer);
 
     return Buffer.GetString();
@@ -25,5 +58,10 @@ std::string MovePacket::ToString()
 
 int MovePacket::Length()
 {
-	return 0;
+    return ToString().size();
+}
+
+EPacketType MovePacket::GetType()
+{
+    return EPacketType::MOVE;
 }

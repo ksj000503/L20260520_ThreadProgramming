@@ -1,2 +1,5 @@
 ﻿  server.cpp
+C:\work\L20260520_ThreadProgramming\Server\server.cpp(232,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\work\L20260520_ThreadProgramming\Server\server.cpp(233,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\work\L20260520_ThreadProgramming\Server\server.cpp(254,101): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Server.vcxproj -> C:\work\L20260520_ThreadProgramming\x64\Debug\Server.exe

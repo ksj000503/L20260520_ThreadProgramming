@@ -10,8 +10,10 @@
 #include <iostream>
 #include <process.h>
 #include <conio.h>
-
-
+#include <fstream>
+#include <vector>
+#include <string>
+#include <map>
 
 #pragma comment(lib, "ws2_32")
 #pragma comment(lib, "NetCommon")
@@ -26,6 +28,84 @@ bool IsRecvThreadRunning = true;
 bool IsSendThreadRunning = true;
 
 char UserID[64] = {0,};
+struct Player
+{
+	int X = 1;
+	int Y = 1;
+};
+map<string, Player> Players;
+vector<string> ChatLogs;
+
+vector<string> MapData;
+
+void LoadMap()
+{
+	ifstream File("map.txt");
+
+	if (File.is_open() == false)
+	{
+		cout << "map load fail" << endl;
+		return;
+	}
+
+	string Line;
+
+	while (getline(File, Line))
+	{
+		MapData.push_back(Line);
+	}
+
+	cout << "map load success" << endl;
+}
+
+void DrawMap()
+{
+	system("cls");
+
+	for (int y = 0; y < (int)MapData.size(); ++y)
+	{
+		for (int x = 0; x < (int)MapData[y].size(); ++x)
+		{
+			bool IsPlayer = false;
+
+			for (auto& Pair : Players)
+			{
+				Player& CurrentPlayer = Pair.second;
+
+				if (CurrentPlayer.X == x &&
+					CurrentPlayer.Y == y)
+				{
+					cout << UserID[0];
+					IsPlayer = true;
+					break;
+				}
+			}
+
+			if (IsPlayer == true)
+			{
+				continue;
+			}
+
+			if (MapData[y][x] == '1')
+			{
+				cout << "бс";
+			}
+			else
+			{
+				cout << " ";
+			}
+		}
+
+		cout << endl;
+	}
+
+	cout << endl;
+
+	for (string& Chat : ChatLogs)
+	{
+		cout << Chat << endl;
+	}
+}
 
 void MakePacketHeader(PacketHeader& OutPacketHeader, int DataSize, EPacketType Type)
 {
@@ -66,15 +146,29 @@ unsigned WINAPI RecvThread(void* Argument)
 		case EPacketType::CHAT:
 		{
 			ChatPacket Data;
-			Data.Parse(RecvBuffer);
-			cout << "ID: " << Data.UserID << " Message: " << Data.Message << endl;
+			Data.Parse(RecvBuffer); 
+			string ChatText = "ID: " + Data.UserID +" Message: " + Data.Message;
+
+			ChatLogs.push_back(ChatText);
+
+			if (ChatLogs.size() > 5)
+			{
+				ChatLogs.erase(ChatLogs.begin());
+			}
+
+			DrawMap();
 			break;
 		}
 		case EPacketType::MOVE:
 		{
 			MovePacket Data;
 			Data.Parse(RecvBuffer);
-			cout << "ID: " << Data.UserID << " X: " << Data.X << " Y: " << Data.Y << endl;
+
+			Players[Data.UserID].X = (int)Data.X;
+			Players[Data.UserID].Y = (int)Data.Y;
+
+			DrawMap();
+
 			break;
 		}
 		default:
@@ -105,10 +199,7 @@ unsigned WINAPI SendThread(void* Argument)
 
 		if (ch == 'w' || ch == 'a' || ch == 's' || ch == 'd')
 		{
-			if (ch == 'w') MoveData.Y++;
-			if (ch == 's') MoveData.Y--;
-			if (ch == 'a') MoveData.X--;
-			if (ch == 'd') MoveData.X++;
+			MoveData.Key = std::string(1, ch);
 
 			JSONString = MoveData.ToString();
 			MakePacketHeader(Header, JSONString.size(), MoveData.GetType());
@@ -146,7 +237,12 @@ int main()
 {
 	cout << "client" << endl;
 
+	LoadMap();
+	DrawMap();
+	char Path[MAX_PATH];
+	GetCurrentDirectoryA(MAX_PATH, Path);
 
+	cout << Path << endl;
 	WSAData wsaData;
 
 	WSAStartup(MAKEWORD(2, 2), &wsaData);
